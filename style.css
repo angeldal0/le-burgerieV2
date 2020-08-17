@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+
+
+/*****************************************************************
+********************** Cuadro de Comandas *************************
+******************************************************************/
+
+#header {
+    background-color: rgb(253, 231, 239);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+}
+#comanda {
+    margin: 0;
+}
+
+#ultimaComanda {
+    width: 700px;
+    margin: 5px;
+    border-color: rgb(166, 241, 166);
+    border-style: double;
+    border-radius: 6px;
+    border-width: 4px;
+    background-color: white;
+    font-size: 50px;
+    font-style: italic;
+}
+
+#comandas {
+    display: none;
+    padding-left: 250px;
+    max-width: 650px;
+    font-size: 40px;
+
+}
+
+
+/*****************************************************************
+********************** Lista de opciones *************************
+******************************************************************/
+
+.lista {
+    float: right;
+    max-width: 710px;
+}
+
+#listaBebidas, #listaEntrantes, #listaHamburguesas, #listaCafe, #listaLicores, #listaPostres, #listaVinos, #editorHamburguesas, #editorHamburguesasV2, #editorLicores, #editorVinos, #listaMiNiña, #editorMiNiña {
+    display: none;
+}
+
+#listaOpciones {
+    max-width: 230px;
+    display: block;
+    float: left;
+}
+
+.botonDeOpcion {
+    width: 233px;
+    height: 200px;
+    font-size: 25px;
+    border-width: 2px;
+    border-color: black;
+}
+
+/*****************************************************************
+********************** barra modificadores ***********************
+******************************************************************/
+
+#modificador {
+    position: fixed;
+    width: 970px;
+    height: 150px;
+    line-height: 150px;
+    bottom: 0;
+    display: none;
+}
+
+#barraModificador {
+    background-color: burlywood;
+ 
+
+    
+}
+
+#input1 {
+    margin-left: 180px;
+    width: 500px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+}
+
+#input2 {
+    width: 70px;
+    height: 107px;
+    font-size: 40px;
+}
+
+/*****************************************************************
+********************** Colores de Botones ************************
+******************************************************************/
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+.lightblue {
+    background-color: lightblue;
+
+}
+
+.pink {
+    background-color: rgb(255, 59, 124);
+    color: white;
+}
+
+.green {
+    background-color: rgb(23, 231, 23);
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.brown {
+    background-color: brown;
+    color: white;
+}
+
+.darkred {
+    background-color: darkred;
+    color: white;
+}
+
+.darkblue {
+    background-color: rgb(20, 0, 68);
+    color: white;
+}
+
+.botonCafe {
+    background-color: rgb(3, 97, 97);
+    color: white;
+}
+
+.lightpink {
+    background-color: lightcoral;
+    color: white;
+}
+
+.corregir {
+    border-style: dashed;
+    border-width: 10px;
+    border-color: red;
+}
