@@ -160,4 +160,32 @@ function modificarHamburguesa(opcion){
     var edit = document.createElement("p");
     edit.innerHTML = ultimaComanda.innerHTML + '\n - ' + opcion.innerHTML;
     renovarComanda(edit);
+    ocultarAnterior(ultimaLista);
+}
+
+function modificarHamburguesaV2(opcion, lista){
+    var edit = document.createElement("p");
+    edit.innerHTML = ultimaComanda.innerHTML + '\n - ' + opcion.innerHTML;
+    renovarComanda(edit);
+    ocultarAnterior(ultimaLista);
+    ultimaLista = "editorHamburguesasV2"
+    mostrarLista(lista);
+}
+
+function modificarLicores(opcion, lista){
+    var edit = document.createElement("p");
+    edit.innerHTML = ultimaComanda.innerHTML + '\n - ' + opcion.innerHTML;
+    renovarComanda(edit);
+    ocultarAnterior(ultimaLista);
+    ultimaLista = "editorLicores"
+    mostrarLista(lista);
+}
+
+function modificarVinos(opcion, lista){
+    var edit = document.createElement("p");
+    edit.innerHTML = ultimaComanda.innerHTML + '\n - ' + opcion.innerHTML;
+    renovarComanda(edit);
+    ocultarAnterior(ultimaLista);
+    ultimaLista = "editorVinos"
+    mostrarLista(lista);
 }
