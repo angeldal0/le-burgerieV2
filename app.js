@@ -48,7 +48,7 @@ function mostrarLista(lista){
             document.getElementById("listaVinos").style.display = "block";
             ultimaLista = "listaVinos";
             break;
-        case "Mi Niña Gaby💖✨":
+        case "Mi Niña 💖✨":
             ocultarAnterior(ultimaLista);
             document.getElementById("listaMiNiña").style.display = "block";
             ultimaLista = "listaMiNiña";
